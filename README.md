@@ -18,7 +18,7 @@ For the sake of this analysis, ridership at a given station is defined as one po
 
 ## Results
 
-![ols_results](/Users/jmirabito/Desktop/ols_results.png)
+<img width="712" alt="ols_results" src="https://user-images.githubusercontent.com/64563191/93050809-84cbca80-f631-11ea-9d81-0429d9146035.png">
 
 Our OLS regression results show that the variables that seem to have the largest effect on daily ridership are:
 - Temperature (+)
