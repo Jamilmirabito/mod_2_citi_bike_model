@@ -47,7 +47,7 @@ Ridership seemed to be the lowest in the spring of 2020 which seemed to run cont
 
 **There seems to be a weak correlation between an area’s median income and ridership.**
 
-![med_inc]('/Users/jmirabito/Desktop/med_inc.png')
+![med_inc](https://user-images.githubusercontent.com/64563191/93050920-b5abff80-f631-11ea-9fe2-3fd094f67d6e.png)
 
 R: 0.157882
 p-value: 0.708853
