@@ -56,7 +56,7 @@ There doesn’t seem to be a strong relationship between income and ridership, h
 
 **There is a fairly weak negative correlation between distance to NJ PATH and ridership.** 
 
-![dist_to_path]('/Users/jmirabito/Desktop/dist_to_path.png')
+![dist_to_path](https://user-images.githubusercontent.com/64563191/93051037-da07dc00-f631-11ea-8db7-cf5eb4bfc528.png)
 
 R: - 0.364822    
 p-value: 0.007834
