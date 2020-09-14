@@ -7,7 +7,8 @@ Citi Bike is a Lyft-owned and operated bike-share service with over 1,000 Citi B
 ## Methods
 
 For this analysis, we used an Ordinary Least Squares (OLS) model to explore the relationship between a number of community, environmental, and spatial variables and ridership in New Jersey. We decided to use only New Jersey stations given the apparent large amounts of missing data from NYC bike stations. Of the nearly 850,000 entries in our dataset, fewer than 100 were from NYC bike stations.
-For the sake of this analysis, ridership at a given station is defined as one point of contact with a station (i.e., if a renter starts or ends at a given location).
+
+For the sake of this analysis, ridership at a given station is defined as one point of contact with a station (i.e., if a rider starts or ends at a given location).
 
 ## Data Sources
 
@@ -17,7 +18,7 @@ For the sake of this analysis, ridership at a given station is defined as one po
 
 ## Results
 
-image
+![ols_results]('/Users/jmirabito/Desktop/ols_results.png')
 
 Our OLS regression results show that the variables that seem to have the largest effect on daily ridership are:
 - Temperature (+)
@@ -29,7 +30,7 @@ However, with an R-squared value of 0.293, there is a lot of variance that we ca
 
 **There is a moderately strong correlation between ridership and temperature.**
 
-Correlation image
+![temp_corr]('/Users/jmirabito/Desktop/temp_corr.png')
 
 R = 0.629151
 p-value = 0.000000
@@ -40,11 +41,14 @@ The fairly high correlation coefficient of 0.63 would indicate that there seems 
 
 Ridership seemed to be the lowest in the spring of 2020 which seemed to run contrary to the temperature findings, but it should be noted that our data contains the impact of COVID-19 on Citi Bike ridership in the spring of 2020. An ANOVA test confirmed that the differences in ridership between seasons are statistically significant. The images below depict the ridership over the past year.
 
-Images
+![season_ridership]('/Users/jmirabito/Desktop/season_ridership.png')
+
+![ridership_over_time]('/Users/jmirabito/Desktop/ridership_over_time.png')
 
 **There seems to be a weak correlation between an area’s median income and ridership.**
 
-Image
+![med_inc]('/Users/jmirabito/Desktop/med_inc.png')
+
 R: 0.157882
 p-value: 0.708853
 
@@ -52,7 +56,7 @@ There doesn’t seem to be a strong relationship between income and ridership, h
 
 **There is a fairly weak negative correlation between distance to NJ PATH and ridership.** 
 
-![corr](/Users/jmirabito/Desktop/Screen Shot 2020-09-13 at 6.59.33 PM.png)
+![dist_to_path]('/Users/jmirabito/Desktop/dist_to_path.png')
 
 R: - 0.364822    
 p-value: 0.007834
