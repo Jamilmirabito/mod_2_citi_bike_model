@@ -28,40 +28,49 @@ Our OLS regression results show that the variables that seem to have the largest
 
 However, with an R-squared value of 0.293, there is a lot of variance that we cannot account for with the variables we have included in our model.
 
+
 **There is a moderately strong correlation between ridership and temperature.**
 
 ![temp_corr](https://user-images.githubusercontent.com/64563191/93051168-0e7b9800-f632-11ea-80d1-5b41bbfd4002.png)
 
 R = 0.629151
+
 p-value = 0.000000
 
 The fairly high correlation coefficient of 0.63 would indicate that there seems to be a moderately strong correlation between average daily temperature and total daily ridership. This relationship is statistically significant.
+
 
 **COVID-19 significantly impacted ridership in the spring of 2020.** 
 
 Ridership seemed to be the lowest in the spring of 2020 which seemed to run contrary to the temperature findings, but it should be noted that our data contains the impact of COVID-19 on Citi Bike ridership in the spring of 2020. An ANOVA test confirmed that the differences in ridership between seasons are statistically significant. The images below depict the ridership over the past year.
 
-![season_ridership]('/Users/jmirabito/Desktop/season_ridership.png')
+![season_ridership](https://user-images.githubusercontent.com/64563191/93051257-2f43ed80-f632-11ea-8687-f45c901f0746.png)
 
-![ridership_over_time]('/Users/jmirabito/Desktop/ridership_over_time.png')
+![ridership_over_time](https://user-images.githubusercontent.com/64563191/93051249-2bb06680-f632-11ea-9f02-1f7a2a0d8b24.png)
+
+
 
 **There seems to be a weak correlation between an area’s median income and ridership.**
 
 ![med_inc](https://user-images.githubusercontent.com/64563191/93050920-b5abff80-f631-11ea-9fe2-3fd094f67d6e.png)
 
 R: 0.157882
+
 p-value: 0.708853
 
 There doesn’t seem to be a strong relationship between income and ridership, however, in our OLS regression, median income seemed to be one of the stronger predictors of median income. In this particular case, there is one zip code that contains most of the area’s citi bike stations and it’s likely median income is acting as a proxy for that zip code. It also seems to be the case that zip codes with lower median incomes also have fewer Citi Bike stations. Zip codes with higher median incomes are located near many stations, but residents may prefer to use their own means of transportation. As such, there’s a target demographic that seem to utilize Citi Bikes at higher rates than their nearby counterparts. Further exploration into the specific demographic characteristics of riders could help to better understand what contributes to ridership.
+
 
 **There is a fairly weak negative correlation between distance to NJ PATH and ridership.** 
 
 ![dist_to_path](https://user-images.githubusercontent.com/64563191/93051037-da07dc00-f631-11ea-8db7-cf5eb4bfc528.png)
 
 R: - 0.364822    
+
 p-value: 0.007834
 
 Bike stations located closer to PATH train stations experience higher average daily activity than those further away. This relationship is relatively weak but significant.
+
 
 
 ## Limitations and Considerations for Future Analyses
