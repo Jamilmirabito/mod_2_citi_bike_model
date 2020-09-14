@@ -30,7 +30,7 @@ However, with an R-squared value of 0.293, there is a lot of variance that we ca
 
 **There is a moderately strong correlation between ridership and temperature.**
 
-![temp_corr]('/Users/jmirabito/Desktop/temp_corr.png')
+![temp_corr](https://user-images.githubusercontent.com/64563191/93051168-0e7b9800-f632-11ea-80d1-5b41bbfd4002.png)
 
 R = 0.629151
 p-value = 0.000000
